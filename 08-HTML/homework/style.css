@@ -1,0 +1,31 @@
+#ejercicioUno{
+    display: block;
+    text-align: right;
+}
+
+
+
+
+h1 {
+    color: aqua;
+}
+img{
+    width: 400px;
+    height: 200px;
+}
+#thirDiv{
+     height: 600px;
+     width: 500px;
+     
+
+ }
+ #thirDiv{
+    background-color: aquamarine;
+ }
+ #spanID{
+     font-size: 32px;
+ }
+ #thirDiv{
+     padding: 50px;
+     border: 5px solid coral;
+ }
