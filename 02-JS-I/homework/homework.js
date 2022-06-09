@@ -150,13 +150,15 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  
+  let paasd = Match.round(num);
+  console.log("El Numero es= ", num, 'el pproximo es= ', passd);
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  
+  let p = Match.ceil(num);
+  console.log("El numero es= ",  num, 'el superior es=', p);
 }
 
 function numeroRandom() {
@@ -170,7 +172,13 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  
+  if (numero > 0){
+    return "el numero es positivo";
+  } if (numero < 0){
+    return "el numero es negativo";
+  }else if(numer == 0){
+    return false;
+  }
 }
 
 function agregarSimboloExclamacion(str) {
